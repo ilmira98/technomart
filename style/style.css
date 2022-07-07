@@ -14,13 +14,7 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'PT Sans';
-    font-style: italic;
-    font-weight: 700;
-    src: url('../fonts/pt-sans/PTSans-Italic.woff2') format('woff2');
-    font-display: swap;
-}
+
 
 @font-face {
     font-family: 'Fira Sans';
@@ -30,13 +24,7 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Fira Sans';
-    font-style: italic;
-    font-weight: 400;
-    src: url('../fonts/fira-sans/FiraSans-Italic.woff2') format('woff2');
-    font-display: swap;
-}
+
 
 .html  {
     height: 100%;
@@ -63,6 +51,8 @@ body{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+
 
 .list {
     margin: 0;
@@ -115,6 +105,7 @@ body{
 
 .main-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     min-height: 100%;
     margin: 0 auto;
@@ -125,6 +116,7 @@ body{
 
 .communication-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #F3F7F9;
     padding: 0 115px 0 115px;
@@ -144,6 +136,7 @@ body{
 
 .communication-connection {
     display: flex;
+    flex-wrap: wrap;
     margin-left: auto;
     align-items: center;
 }
@@ -178,6 +171,7 @@ body{
 
 .navigation-main {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     color: #FFFFFF;
     background: #293449;
@@ -260,6 +254,7 @@ body{
 .navigation-list {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     width: 220px;
     justify-content: flex-end;
     align-items: center;
@@ -269,6 +264,7 @@ body{
 .navigation-item {
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .entry-icon {
@@ -277,6 +273,7 @@ body{
 
 .navigation-link {
     display: flex;
+    flex-wrap: wrap;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -477,6 +474,7 @@ body{
 .navigation-item-active {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     display: none;
 }
@@ -525,6 +523,7 @@ body{
 
 .signin-link {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     text-decoration: none;
 }
@@ -664,12 +663,14 @@ body{
 
 .promo-slaider {
     display: flex;
+    margin: 0;
     margin-bottom: 23px;
     width: 370px;
 }
 
 .promo-list-additionally {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-left: 30px;
 }
@@ -765,6 +766,7 @@ body{
 
 .promo-link {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     position: relative;
     font-weight: 700;
@@ -834,6 +836,7 @@ body{
 .promo-slaider-switches {
     position: absolute;
     display: flex;
+    flex-wrap: wrap;
     width: 733px;
     justify-content: space-between;
     top: 173px;
@@ -842,6 +845,7 @@ body{
 
 .slider-button {
     display: flex;
+    flex-wrap: wrap;
     width: 50px;
     height: 50px;
     background-color: #293449;
@@ -878,6 +882,7 @@ body{
 
 .catalog-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .catalog-title {
@@ -936,6 +941,7 @@ body{
 
 .filter-price-range-controls {
     display: flex;
+    flex-wrap: wrap;
     width: 220px;
     height: 40px;
     background-color: #F7F3EC;
@@ -992,6 +998,7 @@ body{
 .filter-price-price-controls {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     width: 220px;
     justify-content: space-between;
     margin-bottom: 39px;
@@ -1191,6 +1198,7 @@ body{
 .products-item {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     width: 216px;
     border: 1px solid #EAEAEA;
@@ -1347,11 +1355,13 @@ body{
 
 .pagination-container {
     display: flex;
+    flex-wrap: wrap;
     margin-left: 217px;
 }
 
 .pagination-list {
     display: flex;
+    flex-wrap: wrap;
     margin-right: 17px;
 }
 
@@ -1361,6 +1371,7 @@ body{
 
 .pagination-number {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
     padding: 14px 20px;
@@ -1395,6 +1406,7 @@ body{
 
 .service-description-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .service-container {
@@ -1491,6 +1503,7 @@ body{
 .description-container-contact {
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -1521,11 +1534,13 @@ body{
 
 .main-footer {
     display: flex;
+    flex-wrap: wrap;
 }
 
 
 .footer-social-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-feedback {
@@ -1590,6 +1605,7 @@ body{
 
 .footer-feedback-request-form {
     display: flex;
+    flex-wrap: wrap;
     width: 260px;
 }
 
@@ -1659,12 +1675,14 @@ body{
 
 .bottom-footer {
     display: flex;
+    flex-wrap: wrap;
     background: #293449;
     color: #FFFFFF;
 }
 
 .bottom-footer-developer {
     display: flex;
+    flex-wrap: wrap;
     margin-left: auto;
 }
 
